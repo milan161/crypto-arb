@@ -1,7 +1,9 @@
 # 仓库根 = src/（与 D:\Study\ARB\README.md 约定一致）
-# 本地文档、AI 指引、脚本一律不上传
+# 本仓库公开给小伙伴：只放 README.md 和 docs/ 里的学习笔记，其他 .md 一律不上传
 *.md
-docs/
+!/README.md
+!/docs/
+!/docs/*.md
 scripts/
 agents.md
 proxy.bat
