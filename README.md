@@ -13,6 +13,7 @@
 | [00 环境搭建](docs/00_环境搭建.md) | venv、目录约定、代理、密钥安全 |
 | [01 价差扫描器](docs/01_价差扫描器.md) | 净价差公式、手算核对、403 与超时排查 |
 | [02 第一周验收与仪表盘](docs/02_第一周验收与仪表盘.md) | 30 分钟实测数据、网页仪表盘、目录整理 |
+| [03 订单簿深度与滑点](docs/03_订单簿深度与滑点.md) | 第二周：用真实订单簿检验 0.05% 的滑点缓冲，一笔账 |
 
 ## 第一周的结论
 
@@ -70,7 +71,7 @@ cd src\frontend; npm run dev         # 窗口二：前端
 
 ```
 src/
-├── core/            config.py、day01~03 扫描器
+├── core/            config.py、day01~03 扫描器、day04 订单簿深度
 ├── backend/app.py   仪表盘后端（FastAPI）
 ├── frontend/        仪表盘前端（Vue 3 + Naive UI + ECharts）
 ├── docs/            学习笔记
